@@ -10,8 +10,24 @@
     <Authors>Cellaphin; OgOfficeChair</Authors>
     <Description>A library that implements the boiler plate code for the Command design pattern, so you don't have to recreate it in every project..</Description>
     <PackageTags>simple;design patterns;command;net8</PackageTags>
-    <RepositoryUrl>https://github.com/your/repo</RepositoryUrl>
+    <RepositoryUrl>https://github.com/OgOfficeChair/Simple.DesignPatterns.Command</RepositoryUrl>
+    <Title>Simple.DesignPatterns.Command</Title>
+    <PackageProjectUrl>https://github.com/OgOfficeChair/Simple.DesignPatterns.Command</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
