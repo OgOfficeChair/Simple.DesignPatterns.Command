@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>Simple.DesignPatterns.Command</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Cellaphin</Authors>
+    <Company>Cellaphin</Company>
+    <Description>A short description of your package.</Description>
+    <PackageTags>simple;design patterns;command</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+  </ItemGroup>
+</Project>
