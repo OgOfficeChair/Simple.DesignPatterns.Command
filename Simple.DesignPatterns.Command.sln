@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DesignPatterns.Comma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DesignPatterns.Command.Tests", "Simple.DesignPatterns.Command.Tests\Simple.DesignPatterns.Command.Tests.csproj", "{90776108-E714-4FCF-8B77-E67E43FE440D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98F8EEF2-01A7-4AA2-ACDA-CE8F83130802}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

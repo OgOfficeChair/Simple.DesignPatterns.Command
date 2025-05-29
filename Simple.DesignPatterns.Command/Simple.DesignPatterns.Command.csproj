@@ -6,11 +6,11 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Simple.DesignPatterns.Command</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>Cellaphin</Authors>
-    <Company>Cellaphin</Company>
-    <Description>A short description of your package.</Description>
-    <PackageTags>simple;design patterns;command</PackageTags>
+    <Version>8.0.0</Version>
+    <Authors>Cellaphin; OgOfficeChair</Authors>
+    <Description>A library that implements the boiler plate code for the Command design pattern, so you don't have to recreate it in every project..</Description>
+    <PackageTags>simple;design patterns;command;net8</PackageTags>
+    <RepositoryUrl>https://github.com/your/repo</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
